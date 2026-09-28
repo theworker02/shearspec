@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/shearspec",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Shear structured JSON spec payloads without a heavyweight toolkit.",
+  "bin": {
+    "shearspec": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/shearspec.git"
+  },
+  "homepage": "https://theworker02.github.io/shearspec/",
+  "keywords": [
+    "shear",
+    "spec",
+    "json",
+    "cli",
+    "toolkit"
+  ]
+}
